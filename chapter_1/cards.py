@@ -11,7 +11,7 @@ class NumberCard(Enum):
 
 
 class Card(NamedTuple):
-    rank: int
+    rank: int | str
     suit: str
 
 
@@ -24,8 +24,8 @@ class Deck:
             is_full (bool, optional): При True количество карт 52. Дефолтное False -> 36 карт в колоде.
         """
         self._is_full = is_full
-        self._deck: list[Card] = None
-        self._ranks: list[int]  = None
+        self._deck: list[Card] = []
+        self._ranks: list[int | str]  = []
 
     
     def init_deck(self) -> None:
