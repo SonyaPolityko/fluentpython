@@ -1,6 +1,6 @@
 # Fluent Python
 
-Проект содержит решения примеров и задач из книги _"Fluent Python: Clear, Concise, and Effective Programming", Лусиану Рамальо_
+Проект содержит решения примеров из книги _"Fluent Python: Clear, Concise, and Effective Programming", Лусиану Рамальо_
 
 
 **Этот репозиторий создан для:**
